@@ -1,0 +1,88 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Magma.Portal">
+
+
+    <!--Very light gray-->
+    <Color x:Key="BackgroundLight">#EFEFEF</Color>
+    <SolidColorBrush x:Key="BackgroundDarkBrush" Color="#FF3B3B3B"/>
+
+    <!--Very very light gray almost white)-->
+    <Color x:Key="BackgroundVeryLight">#FAFAFA</Color>
+    <SolidColorBrush x:Key="BackgroundVeryLightBrush" Color="{StaticResource BackgroundVeryLight}"/>
+
+    
+    
+    <!--White-->
+    <Color x:Key="ForegroundMain">#FFFFFFFF</Color>
+    <SolidColorBrush x:Key="ForegroundMainBrush" Color="{StaticResource ForegroundMain}"/>
+
+    <!--Light gray-->
+    <Color x:Key="ForegroundLight">#FF808181</Color>
+    <SolidColorBrush x:Key="ForegroundLightBrush" Color="{StaticResource ForegroundLight}"/>
+
+    <!--Dark gray-->
+    <Color x:Key="ForegroundDark">#FF444545</Color>
+    <SolidColorBrush x:Key="ForegroundDarkBrush" Color="{StaticResource ForegroundDark}" />
+
+    <!--Black-->
+    <Color x:Key="ForegroundVeryDark">#000000</Color>
+    <SolidColorBrush x:Key="ForegroundVeryDarkBrush" Color="{StaticResource ForegroundVeryDark}"/>
+
+
+    
+
+    <Color x:Key="MagmaOrange">#FFFFD571</Color>
+    <SolidColorBrush x:Key="MagmaOrangeBrush" Color="{StaticResource MagmaOrange}" />
+    
+    
+    <!--#region Button Brushes-->
+    
+    <!--Is enabled brushes-->
+    <Color x:Key="Button_IsEnabled_Background">#FF686868</Color>
+    <SolidColorBrush x:Key="Button_IsEnabled_BackgroundBrush" Color="{StaticResource Button_IsEnabled_Background}"/>
+
+    <Color x:Key="Button_IsEnabled_Foreground">#FFFFFFFF</Color>
+    <SolidColorBrush x:Key="Button_IsEnabled_ForegroundBrush" Color="{StaticResource Button_IsEnabled_Foreground}"/>
+
+    <!--Is disabled brushes-->
+    <Color x:Key="Button_IsDisabled_Background">#FF4E4E50</Color>
+    <SolidColorBrush x:Key="Button_IsDisabled_BackgroundBrush" Color="{StaticResource Button_IsDisabled_Background}"/>
+
+    <Color x:Key="Button_IsDisabled_Foreground">#FF9B9B9B</Color>
+    <SolidColorBrush x:Key="Button_IsDisabled_ForegroundBrush" Color="{StaticResource Button_IsDisabled_Foreground}"/>
+
+    <!--Is defaulted border brush-->
+    <Color x:Key="Button_IsDefaulted_Border">#FAFAFAFA</Color>
+    <SolidColorBrush x:Key="Button_IsDefaulted_BorderBrush" Color="{StaticResource Button_IsDefaulted_Border}"/>
+
+    <!--Is mouse over brushes-->
+    <Color x:Key="Button_IsMouseOver_Background">#FFAFAFAF</Color>
+    <SolidColorBrush x:Key="Button_IsMouseOver_BackgroundBrush" Color="{StaticResource Button_IsMouseOver_Background}" />
+
+    <Color x:Key="Button_IsMouseOver_Foreground">#FFFFFFFF</Color>
+    <SolidColorBrush x:Key="Button_IsMouseOver_ForegroundBrush" Color="{StaticResource Button_IsMouseOver_Foreground}"/>
+
+    <!--Is pressed brushes-->
+    <Color x:Key="Button_IsPressed_Background">#FFEFEBEF</Color>
+    <SolidColorBrush x:Key="Button_IsPressed_BackgroundBrush" Color="{StaticResource Button_IsPressed_Background}" />
+
+    <Color x:Key="Button_IsPressed_Foreground">#FFFFFFFF</Color>
+    <SolidColorBrush x:Key="Button_IsPressed_ForegroundBrush" Color="{StaticResource Button_IsPressed_Foreground}"/>
+
+    <!--Text Button no border-->
+    <Color x:Key="TextButtonNoBorder_IsEnabled_Foreground">#FFFFFFFF</Color>
+    <SolidColorBrush x:Key="TextButtonNoBorder_IsEnabled_ForegroundBrush" Color="{StaticResource TextButtonNoBorder_IsEnabled_Foreground}" />
+    
+    <Color x:Key="TextButtonNoBorder_IsMouseOver_Foreground">#FFFDD571</Color>
+    <SolidColorBrush x:Key="TextButtonNoBorder_IsMouseOver_ForegroundBrush" Color="{StaticResource TextButtonNoBorder_IsMouseOver_Foreground}" />
+
+    <Color x:Key="TextButtonNoBorder_IsPressed_Foreground">#FFFFF571</Color>
+    <SolidColorBrush x:Key="TextButtonNoBorder_IsPressed_ForegroundBrush" Color="{StaticResource TextButtonNoBorder_IsPressed_Foreground}" />
+
+    <Color x:Key="TextButtonNoBorder_IsDisabled_Foreground">#FFFFD571</Color>
+    <SolidColorBrush x:Key="TextButtonNoBorder_IsDisabled_ForegroundBrush" Color="{StaticResource TextButtonNoBorder_IsDisabled_Foreground}" />
+
+    <!--#endregion-->
+    
+</ResourceDictionary>
